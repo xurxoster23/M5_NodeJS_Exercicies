@@ -1,0 +1,25 @@
+{
+  "name": "ejercicio3",
+  "version": "1.0.0",
+  "description": "Para comprobar la implementación de una lógica de respuestas a peticiones HTTP en NodeJS y Express, crea un proyecto en un directorio\r denominado ejercicio3; usando Visual Studio Code, deberás crear la\r siguiente estructura de archivos y directorio:\r • Un archivo app.js.\r • Las dependencias de NodeJS generadas al inicializar un proyecto.\r A continuación, desarrolla los siguientes pasos:\r • Genera un proyecto NodeJS con la herramienta de línea de comandos.\r • Instala como dependencia de desarrollo la herramienta nodemon.\r • Instala como dependencia la librería Express.\r • Crea un script en el archivo package.json para ejecutar el proyecto\r con nodemon.\r • Crea un archivo .gitignore para que el directorio node_modules no\r se controle en las versiones.\r • Implementa la sintaxis de servidor Express en el archivo app.js.\r • Crea un método “get” que reciba un parámetro y evalúe su valor.\r • Genera al menos dos respuestas diferentes según el valor del parámetro.\r • Ejecuta el proyecto con el script y comprueba los resultados.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "Express",
+    "nodemon",
+    "HTTP"
+  ],
+  "author": "Devormar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
