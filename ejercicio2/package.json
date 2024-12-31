@@ -1,0 +1,25 @@
+{
+  "name": "ejercicio2",
+  "version": "1.0.0",
+  "description": "• Un archivo app.js.\r • Un directorio denominado files.\r • Un archivo info.txt dentro del directorio files.\r • Cualquier archivo PDF que haya que introducir dentro del directorio\r files.\r • Las dependencias de NodeJS generadas al inicializar un proyecto.\r A continuación, desarrolla los siguientes pasos:\r • Genera un proyecto NodeJS con la herramienta de línea de comandos.\r • Instala como dependencia de desarrollo la herramienta nodemon.\r • Instala como dependencia la librería Express.\r • Crea un script en el archivo package.json para ejecutar el proyecto\r con nodemon.\r • Crea un archivo .gitignore para que el directorio node_modules no\r se controle en las versiones.\r • Crea en el archivo info.txt unos textos que posteriormente puedan\r ser comprobados.\r • Ubica cualquier archivo PDF en el directorio files.\r • Implementa la sintaxis de servidor Express en el archivo app.js.\r Ejercicios resueltos 5\r • Crea dos métodos “get” para dos rutas diferentes que devuelvan\r cada archivo del directorio files.\r • Ejecuta el proyecto con el script y comprueba los resultados.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "nodemon",
+    "express",
+    "files"
+  ],
+  "author": "Devormar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
